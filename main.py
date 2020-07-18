@@ -28,7 +28,7 @@ if __name__ == '__main__':
             terms.append(f'___x^{curr_degree}')
             curr_degree -= 1
         print(' + '.join(terms))
-
+        
         # Ask user to input coefficients
         print('\nEnter The Corresponding Coefficient For Each Of The Following Terms')
         coeffs = []
