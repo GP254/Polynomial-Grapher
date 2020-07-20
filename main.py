@@ -6,7 +6,6 @@ if __name__ == '__main__':
 
     # Introduction/rules
     print(constants.WELCOME_SCRIPT)
-
     # Selection Configuration To Start Program
     entry = prompt(constants.START_PROMPT)
     start = entry['Start']
